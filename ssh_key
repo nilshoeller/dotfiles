@@ -1,0 +1,22 @@
+####### SETUP SSH KEY FOR THIS ACCOUNT ###############
+# generate a new ssh key in the ~/.ssh folder
+ssh-keygen -t rsa -C "nilshoeller00@gmail.com" -f "gitlab-nilshoeller"
+
+# add the key to the keychain
+ssh-add --apple-use-keychain ~/.ssh/gitlab-nilshoeller
+
+# copies the key into the clipboard -> paste it into the gitlab settings ssh key
+pbcopy < ~/.ssh/gitlab-nilshoeller.pub
+
+# opens the config to type in the relevant data
+open -e ~/.ssh/config
+
+# DATA:
+# Host gitlab.com
+#   HostName gitlab.com-{optional}
+#   User git
+#   IdentityFile ~/.ssh/personal_key
+
+# set the new account globally -> then standart acccount
+git config --global user.name Nils
+git config --global user.email nilshoeller00@gmail.com
