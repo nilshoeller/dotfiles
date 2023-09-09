@@ -37,69 +37,76 @@ deleted = "x"
 
 [aws]
 symbol = "aws "
+style = "fg:blue"
 
 [azure]
 symbol = "az "
-
-[bun]
-symbol = "bun "
+style = "fg:blue"
 
 [c]
 symbol = "C "
+style = "fg:blue"
 
 [cobol]
 symbol = "cobol "
+style = "fg:blue"
 
 [conda]
 symbol = "conda "
+style = "fg:blue"
 
 [crystal]
 symbol = "cr "
+style = "fg:blue"
 
 [cmake]
 symbol = "cmake "
+style = "fg:blue"
 
 [daml]
 symbol = "daml "
+style = "fg:blue"
 
 [dart]
 symbol = "dart "
+style = "fg:blue"
 
 [deno]
 symbol = "deno "
+style = "fg:blue"
 
 [dotnet]
 symbol = ".NET "
+style = "fg:blue"
 
 [directory]
-read_only = " ro"
+read_only = " read only"
 
 [docker_context]
 symbol = "docker "
+style = "fg:blue"
 
 [elixir]
 symbol = "exs "
-
-[elm]
-symbol = "elm "
-
-[fennel]
-symbol = "fnl "
+style = "fg:blue"
 
 [fossil_branch]
 symbol = "fossil "
 
 [gcloud]
 symbol = "gcp "
+style = "fg:blue"
 
 [git_branch]
 symbol = "git "
 
 [golang]
 symbol = "go "
+style = "fg:blue"
 
 [gradle]
 symbol = "gradle "
+style = "fg:blue"
 
 [guix_shell]
 symbol = "guix "
@@ -109,18 +116,23 @@ symbol = "hg "
 
 [java]
 symbol = "java "
+style = "fg:blue"
 
 [julia]
 symbol = "jl "
+style = "fg:blue"
 
 [kotlin]
 symbol = "kt "
+style = "fg:blue"
 
 [lua]
 symbol = "lua "
+style = "fg:blue"
 
 [nodejs]
 symbol = "nodejs "
+style = "fg:blue"
 
 [memory_usage]
 symbol = "memory "
@@ -136,9 +148,11 @@ symbol = "nix "
 
 [ocaml]
 symbol = "ml "
+style = "fg:blue"
 
 [opa]
 symbol = "opa "
+style = "fg:blue"
 
 [os.symbols]
 Alpaquita = "alq "
@@ -188,9 +202,11 @@ symbol = "pkg "
 
 [perl]
 symbol = "pl "
+style = "fg:blue"
 
 [php]
 symbol = "php "
+style = "fg:blue"
 
 [pijul_channel]
 symbol = "pijul "
@@ -203,24 +219,29 @@ symbol = "purs "
 
 [python]
 symbol = "py "
+style = "fg:blue"
 
 [raku]
 symbol = "raku "
 
 [ruby]
 symbol = "rb "
+style = "fg:blue"
 
 [rust]
 symbol = "rs "
+style = "fg:blue"
 
 [scala]
 symbol = "scala "
+style = "fg:blue"
 
 [spack]
 symbol = "spack "
 
 [solidity]
 symbol = "solidity "
+style = "fg:blue"
 
 [status]
 symbol = "[x](bold red) "
@@ -230,11 +251,13 @@ symbol = "sudo "
 
 [swift]
 symbol = "swift "
+style = "fg:blue"
 
 [terraform]
 symbol = "terraform "
 
 [zig]
 symbol = "zig "
+style = "fg:blue"
 #######################################################
 
