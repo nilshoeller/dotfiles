@@ -16,11 +16,12 @@ command_timeout = 5000
 ###########################################################
 
 ## HOSTNAME ###############################################
-#[hostname]
-#ssh_only = false
-#format = 'on [$hostname](bold yellow) '
-#trim_at = "."
-#disabled = false
+[hostname]
+ssh_only = false
+#format = '[nils](blue) on [$hostname](bold cyan) '
+format = '[nils](bold green) on [MacBook-Pro](blue) '
+trim_at = "."
+disabled = false
 #######################################################
 
 ## PLAIN TEXT SYMBOLS #################################
